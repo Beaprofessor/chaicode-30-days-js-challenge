@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day10 : Event Handling</title>
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class=" sm:container h-full m-auto border border-black  mt-10 p-3  mb-15">
+
+        <div id="firstDiv" class=" border  flex text-center border-red-300 p-3 gap-2">
+            <button id="btn" class="w-4/12 border border-blue-500 bg-blue-400 hover:bg-red-200 ">Click Here</button>
+            <p id="para" class="w-9/12 border border-blue-300 bg-sky-400 ">Hello Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Mollitia, explicabo!</p>
+        </div>
+
+        <div id="secondDiv" class="border border-purple-400 mt-5 p-3">
+
+            <img id="image" src="https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg" alt="">
+
+        </div>
+
+        <div id="thirdDiv" class="border border-blue-500  mt-5 p-3">
+            <input id="inputField" type="text" class="border border-black">
+            <p id="displayText"></p>
+        </div>
+
+
+        <div id="fourthDiv" class=" border border-black mt-5 p-3">
+            <form id="form">
+                <label for="name">Name: </label>
+                <input name="name" id="name" placeholder=" Enter your name here." class="border border-black">
+                <label for="email">Email: </label>
+                <input name="email" id="email" placeholder=" Enter your email here." class="border border-black">
+                <button type="submit" class="border border-black">Submit</button>
+            </form>
+        </div>
+
+
+
+        <div id="fifthDiv" class=" border border-black mt-5 p-3">
+            <div id="myDiv">
+                <label for="color">Choose a color:</label>
+                <select id="color" name="color" class="border border-black">
+                  <option value="red">Red</option>
+                  <option value="green">Green</option>
+                  <option value="blue">Blue</option>
+                  <option value="yellow">Yellow</option>
+                </select>
+            </div>
+
+              <p id="displaySelectOptions">Hello</p>
+        </div>
+
+
+        <div id="sixthDiv" class="border border-black mt-5 p-3">
+            <ul id="itemList">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+
+              <button id="addItem" class="border border-black w-4 p-3 bg-red-400 hover:bg-sky-300">Add Item</button>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
