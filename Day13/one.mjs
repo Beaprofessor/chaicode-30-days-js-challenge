@@ -88,3 +88,39 @@ export function divide1(a, b) {
 // Activity 4: Using third party Modules
 
 // Task 6
+
+// Import lodash
+import _ from 'lodash'
+
+// Example: Using the _.chunk function to split an array into chunks of a specified size
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const chunkedArray = _.chunk(array, 4);
+
+console.log(chunkedArray);
+
+
+
+// Task 7 
+
+// Import Axios
+import axios from 'axios';
+
+// Function to make a GET request to a public API
+const fetchData = async () => {
+  try {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/todos/1');
+    console.log(response.data);
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+};
+
+// Call the function
+fetchData();
+
+
+
+// Activity 5: Module Bundling (Optional)
+
+// Task 8
+
